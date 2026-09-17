@@ -128,6 +128,7 @@ services:
     image: milvusdb/milvus:v2.3.0
     profiles: ["storage", "full"]
     container_name: medgraph-milvus
+    command: ["milvus", "run", "standalone"]
     depends_on:
       - etcd
       - minio
@@ -160,12 +161,29 @@ services:
       - ./infra/mongodb/init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
       - ./infra/mongodb/data:/data/db
 
+  mysql:
+    image: mysql:8.0-debian
+    profiles: ["scheduler", "full"]
+    container_name: medgraph-mysql
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-MedGraph123!}
+      MYSQL_DATABASE: xxl_job
+      MYSQL_USER: xxl_job
+      MYSQL_PASSWORD: ${XXL_JOB_DB_PASSWORD:-MedGraph123!}
+    ports: ["3306:3306"]
+    volumes:
+      - ./infra/mysql/tables_xxl_job.sql:/docker-entrypoint-initdb.d/tables_xxl_job.sql:ro
+      - ./infra/mysql/data:/var/lib/mysql
+
   xxl-job-admin:
     image: xuxueli/xxl-job-admin:2.4.0
     profiles: ["scheduler", "full"]
     container_name: medgraph-xxl-job
+    depends_on:
+      - mysql
     environment:
-      PARAMS: "--spring.datasource.url=jdbc:h2:mem:xxljob;MODE=MySQL --spring.datasource.driver-class-name=org.h2.Driver --spring.datasource.username=sa --spring.datasource.password= --xxl.job.accessToken=${XXL_JOB_ACCESS_TOKEN:-medgraph_xxl_job_token}"
+      PARAMS: "--spring.datasource.url=jdbc:mysql://mysql:3306/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai --spring.datasource.username=xxl_job --spring.datasource.password=${XXL_JOB_DB_PASSWORD:-MedGraph123!} --xxl.job.accessToken=${XXL_JOB_ACCESS_TOKEN:-medgraph_xxl_job_token}"
     ports: ["8081:8080"]
 
   rag-ai-service:
