@@ -37,3 +37,16 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# 在文件末尾追加以下内容
+
+### Docker / 中间件数据目录 ###
+infra/neo4j/data/
+infra/neo4j/logs/
+infra/mongodb/data/
+infra/milvus/data/
+infra/redis/data/
+infra/kafka/data/
+
+### 日志文件 ###
+*.log
