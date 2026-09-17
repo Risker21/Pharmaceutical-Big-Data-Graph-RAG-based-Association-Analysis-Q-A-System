@@ -1,0 +1,1160 @@
+{
+  "top_contraindications": [],
+  "department_disease_distribution": [
+    {
+      "department": "心内科",
+      "count": 4200
+    },
+    {
+      "department": "呼吸内科",
+      "count": 3800
+    },
+    {
+      "department": "内分泌科",
+      "count": 3500
+    },
+    {
+      "department": "消化内科",
+      "count": 2900
+    },
+    {
+      "department": "神经内科",
+      "count": 2400
+    },
+    {
+      "department": "骨科/风湿",
+      "count": 1800
+    },
+    {
+      "department": "全科",
+      "count": 1500
+    }
+  ],
+  "ingredient_heatmap": [
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "卡托普利",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "依那普利",
+      "jaccard": 0.85
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "格列美脲",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "华法林",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "茶碱",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.23
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.07
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.15
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.17
+    },
+    {
+      "drug_a": "卡托普利",
+      "drug_b": "布洛芬",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "卡托普利",
+      "jaccard": 0.17
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "依那普利",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.23
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "格列美脲",
+      "jaccard": 0.23
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.13
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "华法林",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "茶碱",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.15
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.03
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "依那普利",
+      "drug_b": "布洛芬",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "卡托普利",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "依那普利",
+      "jaccard": 0.07
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "二甲双胍",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "格列美脲",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "华法林",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "茶碱",
+      "jaccard": 0.07
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.03
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.19
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "二甲双胍",
+      "drug_b": "布洛芬",
+      "jaccard": 0.23
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "卡托普利",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "依那普利",
+      "jaccard": 0.15
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "格列美脲",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "华法林",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "茶碱",
+      "jaccard": 0.09
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.22
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.13
+    },
+    {
+      "drug_a": "格列美脲",
+      "drug_b": "布洛芬",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "卡托普利",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "依那普利",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "格列美脲",
+      "jaccard": 0.22
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "阿司匹林",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "华法林",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "茶碱",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "阿司匹林",
+      "drug_b": "布洛芬",
+      "jaccard": 0.4
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "卡托普利",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "依那普利",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "格列美脲",
+      "jaccard": 0.13
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "华法林",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "茶碱",
+      "jaccard": 0.24
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.23
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "华法林",
+      "drug_b": "布洛芬",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "卡托普利",
+      "jaccard": 0.22
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "依那普利",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "格列美脲",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "华法林",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "茶碱",
+      "jaccard": 0.03
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "左氧氟沙星",
+      "drug_b": "布洛芬",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "卡托普利",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "依那普利",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "格列美脲",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "华法林",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.13
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "茶碱",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.09
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.09
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "茶碱",
+      "drug_b": "布洛芬",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "卡托普利",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "依那普利",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "格列美脲",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "华法林",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.15
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "茶碱",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "奥美拉唑",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.03
+    },
+    {
+      "drug_a": "奥美拉唑",
+      "drug_b": "布洛芬",
+      "jaccard": 0.17
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "卡托普利",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "依那普利",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.15
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "格列美脲",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.09
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "华法林",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "茶碱",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "辛伐他汀",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.19
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "辛伐他汀",
+      "drug_b": "布洛芬",
+      "jaccard": 0.22
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "卡托普利",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "依那普利",
+      "jaccard": 0.13
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "格列美脲",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.19
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "华法林",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "茶碱",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.09
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.09
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "硝苯地平",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.13
+    },
+    {
+      "drug_a": "硝苯地平",
+      "drug_b": "布洛芬",
+      "jaccard": 0.03
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "卡托普利",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "依那普利",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "格列美脲",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "华法林",
+      "jaccard": 0.23
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "茶碱",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.07
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "美托洛尔",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.07
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "美托洛尔",
+      "drug_b": "布洛芬",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "卡托普利",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "依那普利",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.17
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "格列美脲",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "华法林",
+      "jaccard": 0.03
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "茶碱",
+      "jaccard": 0.17
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.21
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.15
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "氢氯噻嗪",
+      "drug_b": "布洛芬",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "卡托普利",
+      "jaccard": 0.07
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "依那普利",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.04
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "格列美脲",
+      "jaccard": 0.0
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "华法林",
+      "jaccard": 0.22
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.17
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "茶碱",
+      "jaccard": 0.17
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.03
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.24
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.02
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.22
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 1.0
+    },
+    {
+      "drug_a": "对乙酰氨基酚",
+      "drug_b": "布洛芬",
+      "jaccard": 0.12
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "卡托普利",
+      "jaccard": 0.19
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "依那普利",
+      "jaccard": 0.1
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "二甲双胍",
+      "jaccard": 0.18
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "格列美脲",
+      "jaccard": 0.05
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "阿司匹林",
+      "jaccard": 0.4
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "华法林",
+      "jaccard": 0.22
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "左氧氟沙星",
+      "jaccard": 0.06
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "茶碱",
+      "jaccard": 0.2
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "奥美拉唑",
+      "jaccard": 0.16
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "辛伐他汀",
+      "jaccard": 0.13
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "硝苯地平",
+      "jaccard": 0.01
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "美托洛尔",
+      "jaccard": 0.11
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "氢氯噻嗪",
+      "jaccard": 0.14
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "对乙酰氨基酚",
+      "jaccard": 0.08
+    },
+    {
+      "drug_a": "布洛芬",
+      "drug_b": "布洛芬",
+      "jaccard": 1.0
+    }
+  ]
+}

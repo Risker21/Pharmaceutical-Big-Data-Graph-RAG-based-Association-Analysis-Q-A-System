@@ -1,0 +1,13 @@
+2026-09-15 13:32:59.587+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2026-09-15 13:32:59.618+0000 INFO  Starting...
+2026-09-15 13:33:00.545+0000 INFO  This instance is ServerId{3ecc3824} (3ecc3824-fe62-4664-beff-9196ee9e93a6)
+2026-09-15 13:33:01.591+0000 INFO  ======== Neo4j 5.12.0 ========
+2026-09-15 13:33:31.729+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2026-09-15 13:33:32.381+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+2026-09-15 13:33:32.382+0000 INFO  Remote interface available at http://localhost:7474/
+2026-09-15 13:33:32.386+0000 INFO  id: 9EE82E7A221B91F6E3342B4EFA874612FC7F1A575BEA1426F4A75615EA250942
+2026-09-15 13:33:32.387+0000 INFO  name: system
+2026-09-15 13:33:32.388+0000 INFO  creationDate: 2026-09-15T13:33:02.828Z
+2026-09-15 13:33:32.389+0000 INFO  Started.
+2026-09-15 13:58:51.688+0000 INFO  Neo4j Server shutdown initiated by request
+2026-09-15 13:58:51.692+0000 INFO  Stopping...

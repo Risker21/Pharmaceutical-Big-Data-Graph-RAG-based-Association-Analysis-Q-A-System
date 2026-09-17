@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: medgraph-gateway
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: INFO
+    com.mo.medgraph: DEBUG

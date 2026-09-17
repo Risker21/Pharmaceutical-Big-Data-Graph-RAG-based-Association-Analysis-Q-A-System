@@ -1,0 +1,37 @@
+[
+  {
+    "community_id": 1,
+    "name": "心血管代谢群",
+    "node_count": 68,
+    "top_drug": "卡托普利",
+    "top_disease": "高血压"
+  },
+  {
+    "community_id": 2,
+    "name": "内分泌代谢群",
+    "node_count": 45,
+    "top_drug": "二甲双胍",
+    "top_disease": "2型糖尿病"
+  },
+  {
+    "community_id": 3,
+    "name": "呼吸抗感染群",
+    "node_count": 39,
+    "top_drug": "左氧氟沙星",
+    "top_disease": "慢性支气管炎"
+  },
+  {
+    "community_id": 4,
+    "name": "消化及抗凝群",
+    "node_count": 32,
+    "top_drug": "奥美拉唑",
+    "top_disease": "胃溃疡"
+  },
+  {
+    "community_id": 5,
+    "name": "镇痛抗炎群",
+    "node_count": 28,
+    "top_drug": "布洛芬",
+    "top_disease": "骨关节炎"
+  }
+]
